@@ -7,8 +7,13 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+My name is {{name || '---'}}
+
+
+
+<button ion-button full (click)="getName()">Get Name</button>
+    <button ion-button full (click)="setName()"  color="secondary">Set Name</button>
+    <button ion-button full (click)="removeName()" color="danger">Remove Name</button>
+
 </ion-content>
