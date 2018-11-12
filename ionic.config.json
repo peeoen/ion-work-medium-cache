@@ -1,0 +1,7 @@
+{
+  "name": "work-medium-cache",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
